@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Socket.io</title>
+
+	<script src="/socket.io/socket.io.js"></script>
+	<script type="text/javascript" src="http://localhost:8000/client/config_html.js"></script>
+	<script type="text/javascript" src="http://localhost:8000/client/function.js"></script>
+	<script>
+		document.write(PORT);
+		var socket = io.connect(ADD + PORT);
+		script(socket);
+	</script>
+</head>
+
+<body>
+	
+</body>
+</html>
